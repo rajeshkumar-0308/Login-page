@@ -1,0 +1,65 @@
+body{
+    background-image: url(./img/Screenshot_20231023-231837.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+body h1{
+    font-size: 50px;
+    color: rgb(247, 246, 246);
+    padding-right: 8rem;
+}
+
+.my{
+    color: rgb(252, 248, 248);
+    animation: raju 4s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes raju{
+    25%{
+        opacity: -1;
+    }
+    50%{
+        color: #970f7ccc;
+        opacity: 2;
+    }
+
+    75%{
+        opacity: -1;
+    }
+
+    100%{
+       color: #faf9f9;
+       opacity: 2;
+    }
+}
+
+.con{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: -2rem;
+    right: 7rem;
+  
+}
+
+.con a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.con a:hover,a:active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+

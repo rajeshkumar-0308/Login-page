@@ -1,0 +1,286 @@
+body{
+    background-image: url(./img/Screenshot_20231023-231837.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+/*signin*/
+/*background and border*/
+.signin{
+    width: 250px;
+    height: 450px;
+    background: linear-gradient(to top,rgba(81, 68, 112, 0.3)50%,rgba(81, 68, 112, 0.3)50%);
+    position: absolute;
+    border-radius: 10px;
+    border: solid 2px rgba(51, 101, 177, 0.534);
+    padding: 25px;
+}
+
+/*heading*/
+.signin h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#e844caf0 ;
+    border-radius: 10px;
+    font-size: 22px;
+    margin: 2px;
+    padding: 8px;
+}
+
+/*input*/
+.signin input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid #e844caf0 ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(110, 202, 209);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+/*input effect*/
+.signin input:focus{
+    outline: none;
+}
+
+/*input placeholder*/
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*forget style*/
+.forget a{
+    text-decoration: none;
+    color: rgb(51, 101, 177);
+    font-size: 15px;
+    position: relative;
+    left: -4.5rem;
+    top: 0.5rem;
+    font-family: serif;
+}
+
+.forget:hover{
+    font-weight: bold;
+}
+
+/*button*/
+.btnn{
+    width: 220px;
+    height: 50px;
+    background: #e844caf0;
+    border: solid;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s;
+}
+.btnn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: black;
+
+}
+
+.btnn a:hover{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+/*or login with*/
+.or{
+    padding-top: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.line1{
+    position: relative;
+    width: 5.3rem;
+    height: 0.1rem; 
+    background-color: #fff;
+    top: -2.1rem;
+    right: 6.2rem;
+}
+
+.line2{
+    position: relative;
+    width: 5.3rem;
+    height: 0.1rem;
+    background-color: #fff;
+    top: -2.7rem;
+    left: 6.2rem;
+}
+
+.signin .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 3rem;
+    text-align: center;
+    color: rgb(127, 209, 242);
+}
+
+.signin .link a{
+    border-top: 50px;
+    text-decoration: none;
+    color: rgb(127, 209, 242);
+}
+
+.signin .link a:hover{
+    font-weight:bold;
+    color: rgb(3, 97, 134);
+}
+
+
+
+
+
+.icons ul{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;
+    padding-left: 17rem;
+}
+
+.icons ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.icons ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.icons ul li a{
+    position: relative;
+    display: block;
+    border: 2px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0.5px 4px rgb(122, 2, 122);
+    color: rgba(255, 0, 255, 0.436);
+}
+
+.icons ul li:nth-child(1) a:hover{
+    background-color: #6e94e4;
+    color: whitesmoke;
+}
+
+.icons ul li:nth-child(2) a:hover{
+    background-color: whitesmoke;
+    color: rgb(240, 66, 66);
+}
+
+
+
+
+.signup{
+    width: 270px;
+    height: 560px;
+    background: linear-gradient(to top,rgba(81, 68, 112, 0.3)50%,rgba(81, 68, 112, 0.3)50%);
+    position: absolute;
+    border: 2px solid rgb(51, 101, 177,0.534);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.signup h2{
+    width: 250px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#e844caf0 ;
+    border-radius: 10px;
+    font-size: 22px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.signup input{
+    width: 280px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 3px solid #e844caf0; 
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(97, 234, 244);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.signup input:focus{
+    outline: none;
+}
+
+.line3{
+    position: relative;
+    width: 5.5rem;
+    height: 0.1rem;
+    background-color: #fff;
+    top: -2.1rem;
+    right: 6.4rem;
+}
+
+.line4{
+    position: relative;
+    width: 5.5rem;
+    height: 0.1rem;
+    background-color: #fff;
+    top: -2.7rem;
+    left: 6.3rem;
+}
+
+::placeholder{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 3rem;
+    text-align: center;
+    color: rgb(127, 209, 242);
+}
+
+.signup .link a{
+
+    text-decoration: none;
+    color: rgb(127, 209, 242);
+}
+
+.signup .link a:hover{
+    font-weight:bold;
+    color:rgb(3, 97, 134) ;
+}
+
+
+
+
+
+
+
